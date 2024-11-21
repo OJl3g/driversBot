@@ -1,1 +1,15 @@
-spring.application.name=driversBot
+spring:
+  application:
+    name: driversBot
+
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/driversBot
+    driver-class-name: org.postgresql.Driver
+
+
+bot:
+  username: drivers_bot
+  tocken: 7917314127:AAEAVv9Ir3n6HiwvOla-b4VY2v3kyBPNE1s
+
