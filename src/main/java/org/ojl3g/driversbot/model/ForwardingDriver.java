@@ -8,14 +8,14 @@ import lombok.NoArgsConstructor;
 @Data
 @Table(name = "forwards")
 @NoArgsConstructor
-public class forwardingDriver {
+public class ForwardingDriver {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     @Column(unique = true, nullable = false)
     private long chatId;
-    private long fullName;
+    private String fullName;
 
 
 }

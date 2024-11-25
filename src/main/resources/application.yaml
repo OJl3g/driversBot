@@ -7,9 +7,12 @@ spring:
     password: postgres
     url: jdbc:postgresql://localhost:5432/driversBot
     driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
 
 
 bot:
-  username: drivers_bot
-  tocken: 7917314127:AAEAVv9Ir3n6HiwvOla-b4VY2v3kyBPNE1s
+  username: drivers_v1_bot
+  token: 7917314127:AAEAVv9Ir3n6HiwvOla-b4VY2v3kyBPNE1s
 
